@@ -1,0 +1,77 @@
+baseurl = "http://www.example.com"
+title = "marcat"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "marcat"
+
+[params]
+  author = "marcat"
+  info = "backend developer, and video editor"
+  description = "marcat's personal website"
+  keywords = "aspiring software devloper, backend developer, and video editor"
+  avatarurl = "https://raw.githubusercontent.com/liquidised/hugo-coder/main/images/avatar.jpg"
+  #gravatar = "marcatlover@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/liquidised/"
+  [[params.social]]
+  name = "Spotify"
+  icon = "fa fa-spotify fa-2x"
+  weight = 1
+  url = "https://open.spotify.com/user/7jq614bjkmt14oiz1pn5orfra?si=c5fd58f7b2604684"
+[[params.social]]
+  name = "Youtube"
+  icon = "fa fa-youtube-play fa-2x"
+  weight = 3
+  url = "https://youtube.com/@marcatlover"
+  [[params.social]]
+  name = "Discord"
+  icon = "fa fa-discord fa-2x"
+  weight = 3
+  url = "https://discord.gg/P945C2akJx"
+
+# Menu links
+[[menu.main]]
+  name = "Home"
+  weight = 0
+  url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+  [[menu.main]]
+  name = "Projects"
+  weight = 2
+  url = "projects/"
